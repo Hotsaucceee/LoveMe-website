@@ -1,0 +1,202 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 10px;
+}
+header
+{
+    padding: 3.4rem 7.2rem;
+}
+nav
+{
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: space-between;
+}
+div.logo, .nav-div-2, .nav-div-3
+{
+    display: flex;
+    align-items: center;
+}
+div.logo>h4
+{
+    font-size: 2.7rem;
+    padding: 0.5rem 1rem;
+    margin-right: 54.6rem;
+}
+.nav-div-2
+{
+    gap: 5.6rem;
+    font-size: 1.8rem;
+}
+.nav-div-2>a
+{
+    text-decoration: none;
+    color: black;
+}
+.nav-div-3
+{
+    gap: 2.4rem;
+}
+.nav-div-3>div>select
+{
+    border: none;
+    border-bottom: .15rem solid black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.nav-div-2>a:hover
+{
+    color: #D93937;
+    transform: scale(1.1);
+}
+main
+{
+    padding: 6.4rem 7.2rem;
+}
+div.main-div>h1
+{
+    font-size: 6rem;
+    font-weight: 850;
+    margin: 0 13.7rem;
+    margin-bottom: 1.4rem;
+}
+div.main-div>h2
+{
+    font-size: 3rem;
+    font-weight: 350;
+    text-align: center;
+    margin: 1.4rem 26.5rem;
+    margin-bottom: 6.4rem;
+}
+.grid-div-1, .grid-div-2
+{
+    display: flex;
+    gap: 2rem;
+    margin: auto 5rem;
+    margin-bottom: 3.2rem;
+}
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8
+{
+    box-shadow:  .1rem -.1rem .2rem 0  rgba(0, 0, 0, 0.10), -.1rem .1rem .2rem 0 rgba(0, 0, 0, 0.10);
+    width: 30.9rem;
+    border-radius: 1rem;
+}
+div.content
+{
+    padding: 1rem;
+}
+.grid-div-1 h3, .grid-div-2 h3
+{
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    margin-top: .6rem;
+    margin-bottom: .8rem;
+    font-weight: 850;
+}
+.grid-div-1 h4, .grid-div-2 h4
+{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #667085;
+    margin-bottom: 1.2rem;
+}
+.grid-div-1 p, .grid-div-2 p
+{
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: .4rem;
+}
+.grid-div-1 a, .grid-div-2 a
+{
+    text-decoration: none;
+    color: #D93937;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-bottom: 1.2rem;
+    padding-top: .4rem;
+}
+section.tips
+{
+    position: absolute;
+    margin-top: -25rem;
+    margin-left: 22.7rem;
+    background-color: #D93937;
+    border-top-right-radius: 1rem;
+    padding: .5rem 3rem;
+    z-index: 1;
+    font-weight: 850;
+    color: #FFF;
+}
+.grid-div-1 img, .grid-div-2 img
+{
+    position: relative;
+    z-index: 0;
+}
+.grid-div-3
+{
+    display: flex;
+    justify-content: space-between;
+}
+.grid-div-3 > a.viewall
+{
+    text-decoration: none;
+    background-color: #D2120F;
+    font-size: 1.6rem;
+    font-weight: 850;
+    color: var(--White, #FFF);
+    padding: 1.2rem 2rem;
+    border: 1px solid var(--foundation-red-red-6, #D2120F);
+    border-radius: 0.8rem;
+    margin: 6rem 0;
+    margin-left: 2.3rem;
+}
+footer
+{
+    padding: 4.1rem 14rem;
+    background-color: #04172A;
+}
+h4#loveme
+{
+    color: #FFF;
+    margin: 0 0;
+}
+#logo1
+{
+    align-self: flex-start;
+}
+div.footer-div-1
+{
+    display: flex;
+    justify-content: space-between;
+}
+div.footer-div-1 a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 750;
+    letter-spacing: -0.032rem;
+}
+div.foot-div-2, div.foot-div-3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 3rem;
+}
+div.foot-div-3
+{
+    margin-left: -15rem;
+    margin-right: 14.5rem;
+}
+div.footer-div-1 a:hover
+{
+    transform: scale(1.1);
+    color: #D93937;
+}
