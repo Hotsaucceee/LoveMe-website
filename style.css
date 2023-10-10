@@ -128,7 +128,7 @@ section.tips
     margin-left: 22.7rem;
     background-color: #D93937;
     border-top-right-radius: 1rem;
-    padding: .5rem 3rem;
+    padding: .6rem 3rem;
     z-index: 1;
     font-weight: 850;
     color: #FFF;
@@ -155,6 +155,7 @@ section.tips
     border-radius: 0.8rem;
     margin: 6rem 0;
     margin-left: 2.3rem;
+    margin-bottom: 3.6rem;
 }
 footer
 {
@@ -170,12 +171,12 @@ h4#loveme
 {
     align-self: flex-start;
 }
-div.footer-div-1
+div.footer-1
 {
     display: flex;
     justify-content: space-between;
 }
-div.footer-div-1 a
+div.footer-1 a
 {
     text-decoration: none;
     color: #fff;
@@ -195,8 +196,50 @@ div.foot-div-3
     margin-left: -15rem;
     margin-right: 14.5rem;
 }
-div.footer-div-1 a:hover
+div.footer-1 a:hover, .footer-3-div-2>a:hover
 {
     transform: scale(1.1);
     color: #D93937;
+}
+.footer-2 a
+{
+    background-color: #04172A;
+}
+a.second-image
+{
+    margin: 0 1.6rem;
+}
+div.border-div
+{
+    background: rgba(255, 255, 255, 0.80);
+    width: 100%;
+    height: .1rem;
+    /* border: .1rem solid rgba(255, 255, 255, 0.80); */
+    margin: 2rem 0;
+}
+.footer-3
+{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-3 p
+{
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: -0.032rem;
+    color: rgba(255, 255, 255, 0.80);
+}
+.footer-3-div-2
+{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.footer-3-div-2>a
+{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.80);
+    letter-spacing: -0.032rem;
 }
