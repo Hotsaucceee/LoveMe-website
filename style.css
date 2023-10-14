@@ -121,6 +121,12 @@ div.content
     padding-bottom: 1.2rem;
     padding-top: .4rem;
 }
+.grid-div-1 a:hover, .grid-div-2 a:hover
+{
+    /* transform: scale(1.1); */
+    font-size: 1.45rem;
+    color: blue;
+}
 section.tips
 {
     position: absolute;
