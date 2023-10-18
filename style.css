@@ -249,3 +249,99 @@ div.border-div
     color: rgba(255, 255, 255, 0.80);
     letter-spacing: -0.032rem;
 }
+@media screen and (max-width: 60rem) {
+    header{
+        padding: 3.4rem 8.2rem;
+    }
+    main{
+        padding: 0rem 2.3rem;
+    }
+    div.logo>h4{
+        font-size: 1.9rem;
+        padding: 0.5rem .5rem;
+        margin-right: 13rem;
+    }
+    div.logo>img{
+        width: 2.6rem;
+    }
+    div.main-div>h1{
+        font-size: 1.8rem;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 1.6rem;
+    }
+    div.main-div>h2{
+    font-size: 1.6rem;
+    margin: 1.6rem 5.2rem;
+    margin-bottom: 3.2rem;
+    }
+    .nav-div-2, .nav-div-3{
+        display: none;
+    }
+    .hamburger-menu{
+        width: 3rem;
+        /* margin-right: 3rem; */
+        background-image: url(./images/hamburger\ menu.png);
+    }
+    div.grid-div-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8{
+        width: 30rem;
+        border-radius: 1rem;
+        /* flex-grow: 1; */
+        flex-basis: 200;
+    }
+    div.grid-div-2{
+        display: none;
+    }
+    .grid-div-1 img, .grid-div-2 img{
+        width: 30rem;
+        height: 25vh;
+    }
+    section.tips{
+        margin-top: -20rem;
+        margin-left: 21.8rem;
+    }
+    footer{
+        padding: 3.2rem 3.2rem;
+    }
+    div.footer-1{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .grid-div-3 > a.viewall
+    {
+        padding: .8rem 1.4rem;
+        margin-top: 1.5rem;
+        margin-bottom: 5rem;
+    }
+    div#logo1{
+        margin-right: 60rem;
+        margin-top: 2.1rem;
+    }
+    div.foot-div-2, div.foot-div-3{
+        margin-top: 7rem;
+    }
+    div.foot-div-3{
+        margin-right :5rem ;
+        /* background-color: aqua; */
+    }
+    div.footer-3{
+        flex-wrap: wrap;
+    }
+    .footer-3-div-1{
+        margin-right: 10rem;
+    }
+    .footer-3-div-2 a{
+        margin-top: 1rem;
+    }
+    .first-a, .second-a{
+        margin-right: 6rem;
+    }
+    .first-a{
+        margin-left: 10rem;
+    }
+}
