@@ -70,3 +70,36 @@ div.text-div strong
     font-weight: 300;
     text-decoration-line: underline;
 }
+/* Responsiveness (MOBILE VIEW) */
+@media screen and (max-width:60rem){
+    header
+    {
+        margin: 0;
+        padding: 0;
+    }
+    nav>div.logo
+    {
+        margin: 1.1rem 2.4rem;
+    }
+    div.sec-main-div-header
+    {
+        padding: 0 3.3rem 0 2.4rem;
+    }
+    div.sec-main-div-header > h1
+    {
+        font-size: 1.8rem;
+    }
+    div.sec-main-div-header > p, div.sec-main-div>p
+    {
+        font-size: 1.2rem;
+        padding-right: -2.4rem;
+    }
+    div.sec-main-div>p
+    {
+        padding-left: 2.4rem;
+    }
+    div.text-div
+    {
+        padding: 2.4rem;
+    }
+}
